@@ -1,4 +1,3 @@
-
 const orb = document.getElementById("orb");
 const subtitleBox = document.getElementById("subtitles");
 const stopButton = document.getElementById("stop-button");
@@ -117,7 +116,6 @@ if (askButton && userInput) {
 function showCTA(tier) {
     let ctaButton = document.getElementById("cta-button");
 
-    // Auto-create if missing
     if (!ctaButton) {
         ctaButton = document.createElement("button");
         ctaButton.id = "cta-button";
